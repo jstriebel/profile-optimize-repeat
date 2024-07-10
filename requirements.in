@@ -1,0 +1,10 @@
+h5py
+matplotlib
+numba
+numpy
+pandas
+scalene
+scikit-image[data]
+scikit-learn
+typer-slim
+-e .
