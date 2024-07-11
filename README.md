@@ -1,9 +1,7 @@
 # Profile, Optimize, Repeat
 
-Code examples and slides for the talk
-> Profile, Optimize, Repeat: One Core Is All You Need™
-
-at [EuroPython 2024](https://ep2024.europython.eu/session/profile-optimize-repeat-one-core-is-all-you-needtm).
+Code examples and [slides](slides%20profile%20optimize%20repeat.pdf) for the [EuroPython 2024](https://ep2024.europython.eu/session/profile-optimize-repeat-one-core-is-all-you-needtm) talk
+> **Profile, Optimize, Repeat: One Core Is All You Need™** 
 
 Speakers:
 [Valentin Nieper](https://github.com/valentin-pinkau) & [Jonathan Striebel](https://github.com/jstriebel)
