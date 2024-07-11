@@ -49,10 +49,10 @@ python main.py v0 --show
 # Use scalene to profile the program. We start the profiler programatically,
 # so it should be started with --off first. --cli gives nice output, otherwise
 # the html version is shown in the browser
-scalene --off --cli main.py --- v8 --data data/xl
+scalene --off --cli main.py --- v7 --data data/xl
 
 # Add --cpu to only profile CPU time, avoiding memory profiling overhead
-scalene --off --cli --cpu main.py --- v8 --data data/xl
+scalene --off --cli --cpu main.py --- v7 --data data/xl
 ```
 
 ## Changes between Versions
