@@ -15,8 +15,6 @@ def colorcode_probabilities(probabilities):
     predicted_classes = np.argmax(probabilities, axis=2).astype(np.uint8)
     # Do no re-compute max, use argmax result to index:
     max_prob = np.take_along_axis(probabilities, predicted_classes[..., None], axis=2).squeeze()
-    # Manual GC, no longer needed:
-    del probabilities
     # Use float32 to save memory:
     max_prob = max_prob.astype(np.float32)
     class_colors = np.array([[0, 0, 255], [0, 255, 0], [255, 0, 0], [0, 255, 255]], dtype=np.uint8)
